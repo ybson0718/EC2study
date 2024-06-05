@@ -25,3 +25,8 @@ app.get('/login',(req,res)=>{
     console.log('로그인 요청');
     res.send('로그인 페이지 예시');
 })
+
+app.get('/register',(req,res)=>{
+    console.log('회원가입 요청');
+    res.send('회원가입 페이지 예시');
+})
