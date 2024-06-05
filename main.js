@@ -20,3 +20,8 @@ app.get('/ybson',(req,res)=>{
     console.log('영빈서버에 누군가 접속');
     res.send('영빈서버 온 것을 축하해');
 })
+
+app.get('/login',(req,res)=>{
+    console.log('로그인 요청');
+    res.send('로그인 페이지 예시');
+})
